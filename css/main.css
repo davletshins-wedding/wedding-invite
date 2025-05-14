@@ -23,6 +23,7 @@ body{
   object-fit: cover;
   opacity: 0;
   animation: fade 11s infinite;
+  animation-fill-mode: both;
 }
 
 .slide1 { animation-delay: 0s; }
