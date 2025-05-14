@@ -1,0 +1,56 @@
+body{
+  background-color: #FBFEFF;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+.slider{
+  position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    object-fit: cover;
+    object-position: center center; 
+}
+
+.slide{
+  position: absolute;
+  margin-top: 55.31vw;
+  margin-left: 19.57vw;
+  width: 60.63vw;
+  height: 85.99vw;
+  object-fit: cover;
+  opacity: 0;
+  animation: fade 11s infinite;
+}
+
+.slide1 { animation-delay: 0s; }
+.slide2 { animation-delay: 2s; }
+.slide3 { animation-delay: 4s; }
+.slide4 { animation-delay: 6s; }
+.slide5 { animation-delay: 8s; }
+
+@keyframes fade {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  30%  { opacity: 1; }
+  40%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.svg-start{
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow-y: hidden;
+    object-fit: cover;
+    object-position: center center; 
+  }
+
+.svg-long{
+    display: block;
+    width: 100%; 
+    max-width: 100%;
+    height: auto;     
+  }

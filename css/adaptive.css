@@ -1,0 +1,29 @@
+@media only screen and (min-device-width: 768px){
+    .svg-start{
+        display: none;
+    }
+
+    .svg-long{
+        display: none;
+    }
+
+    .slider{
+        margin-top: 42vw;
+        margin-left: 57.78vw;
+        width: 27.08vw;
+        height: 39vw;
+    }
+
+    .slide{
+        width: 27.08vw;
+        height: 38.47vw;
+        margin-top: 0vw;
+        margin-left: 0vw;
+    }
+}
+
+@media only screen and (max-device-width: 767px){
+    .svg-wide{
+        display: none;
+    }
+}
